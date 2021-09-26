@@ -3,51 +3,53 @@
     <mj-title></mj-title>
     <mj-attributes>
       <mj-preview>Malware Mauler - Order Confirmation (Order #12345678)</mj-preview>
-      <mj-divider border-color="#999999" border-width="2px" />
-      <mj-class name="subtle-header" font-size="15px" font-weight="600" />
+      <mj-divider padding-top="0px" border-color="#999999" border-width="2px" />
+      <mj-class name="distinct-header" font-size="15px" font-weight="600" color="#111111"/>
+      <mj-class name="subtle-header" font-size="14px" font-weight="600" color="#555555"/>
+      <mj-class name="basic-text" font-size="14px"  color="#555555"/>
     </mj-attributes>
   </mj-head>
   <mj-body background-color="#cccccc">
     <mj-wrapper background-color="#ffffff">
       <mj-section>
         <mj-column>
-          <mj-text>Magnus Rydberg, thank you for becoming a Malware Mauler customer</mj-text>
+          <mj-text padding-left="20%"  padding-left="20%" align="center" mj-class="distinct-header">Magnus Rydberg, thank you for becoming a Malware Mauler customer</mj-text>
           <mj-text>Here is a summary of your order toghether with links to installaltion of Malware Mauler.</mj-text>
 
       </mj-section>
       <mj-section>
         <mj-column>
-          <mj-text mj-class="subtle-header">Order Information</mj-text>
+          <mj-text mj-class="distinct-header">Order Information</mj-text>
           <mj-divider />
-          <mj-text>Order ID</mj-text>
-          <mj-text>1234</mj-text>
-          <mj-text>Order Date:</mj-text>
-          <mj-text>25 September 2021</mj-text>
-          <mj-text>Invoice:</mj-text>
-          <mj-text>Avalable at the <a href="">Order portal</a></mj-text>
-          <mj-text>Pasword:</mj-text>
-          <mj-text>W56abGKs7</mj-text>
+          <mj-text mj-class="subtle-header">Order ID</mj-text>
+          <mj-text mj-class="basic-text">1234</mj-text>
+          <mj-text mj-class="subtle-header">Order Date:</mj-text>
+          <mj-text mj-class="basic-text" >25 September 2021</mj-text>
+          <mj-text mj-class="subtle-header">Invoice:</mj-text>
+          <mj-text mj-class="basic-text">Available at the <a href="">Order portal</a></mj-text>
+          <mj-text mj-class="subtle-header">Password:</mj-text>
+          <mj-text mj-class="basic-text">W56abGKs7</mj-text>
           <mj-text>You will need the password to log in to the <a href="">Order portal</a> to check details of your order.</mj-text>
         </mj-column>
         <mj-column>
-          <mj-text mj-class="subtle-header">Billing Address</mj-text>
+          <mj-text mj-class="distinct-header">Billing Address</mj-text>
           <mj-divider />
-          <mj-text>Name:</mj-text>
+          <mj-text mj-class="subtle-header">Name:</mj-text>
           <mj-text>Magnus Rydberg</mj-text>
-          <mj-text>Address:</mj-text>
+          <mj-text mj-class="subtle-header">Address:</mj-text>
           <mj-text>Socharska 654 / 9</mj-text>
           <mj-text>Praha 7</mj-text>
           <mj-text>CZ</mj-text>
-          <mj-text>Email:</mj-text>
+          <mj-text mj-class="subtle-header">Email:</mj-text>
           <mj-text>hello@goodbye.com</mj-text>
         </mj-column>
       </mj-section>
       <mj-section>
         <mj-column>
-          <mj-text mj-class="subtle-header" >Products in Your Order</mj-text>
+          <mj-text mj-class="distinct-header" >Products in Your Order</mj-text>
           <mj-divider />
           <mj-text>Product SKU: ABC-63-003-55-MR</mj-text>
-          <mj-text>Product Name: TK Internet Security</mj-text>
+          <mj-text>Product Name: Malware Mauler Internet Security PC, 1 year subscription</mj-text>
           <mj-text>QTY: Ordered: 1</mj-text>
           <mj-text>Amount 65,21 €</mj-text>
         </mj-column>
@@ -57,19 +59,19 @@
           <mj-text>Subtotal: 85,21 €</mj-text>
           <mj-text>Discount: -20 €</mj-text>
           <mj-text>VAT: 9,78 €</mj-text>
-          <mj-text>Total prize: 74,99</mj-text>
+          <mj-text mj-class="subtle-header">Total prize: 74,99</mj-text>
         </mj-column>
       </mj-section>
       <mj-section>
         <mj-column>
-          <mj-text mj-class="subtle-header">Payment Information</mj-text>
+          <mj-text mj-class="distinct-header">Payment Information</mj-text>
           <mj-divider />
           <mj-text>If you paid by credit card, please look for DRI*MALWM on your credit card billing statement.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section>
         <mj-column>
-          <mj-text mj-class="subtle-header">Installation</mj-text>
+          <mj-text mj-class="distinct-header">Installation</mj-text>
           <mj-divider />
           <mj-text>Download the installation file from the following URL: <a href="#">http://files.mawaremauler.com/version6.3/setup.exe</a> </mj-text>
           <mj-text>Follow the step-by_step installation instuctions : <a href="#">Malware Mauler Installation in 8 steps</a> </mj-text>
@@ -78,7 +80,7 @@
       </mj-section>
       <mj-section>
         <mj-column>
-          <mj-text mj-class="subtle-header">Stay in touch</mj-text>
+          <mj-text mj-class="distinct-header">Stay in touch</mj-text>
           <mj-divider />
           <mj-text>Social Placeholder</mj-text>
           <mj-text>Best regards</mj-text>
