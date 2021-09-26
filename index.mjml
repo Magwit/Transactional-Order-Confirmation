@@ -6,10 +6,11 @@
     </mj-attributes>
   </mj-head>
   <mj-body background-color="#ffffff">
+    <mj-wrapper>
     <mj-section>
       <mj-column>
         <mj-text>Magnus Rydberg, thank you for becoming a Malware Mauler customer</mj-text>
-        <mj-text>Here is a summary of your order toghether with installation instuctions</mj-text>
+        <mj-text>Here is a summary of your order toghether with links to installaltion of Malware Mauler.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -42,12 +43,56 @@
     <mj-section>
       <mj-column>
         <mj-text>Products in Your Order</mj-text>
+        <mj-divider />
         <mj-text>Product SKU: ABC-63-003-55-MR</mj-text>
         <mj-text>Product Name: TK Internet Security</mj-text>
         <mj-text>QTY: Ordered: 1</mj-text>
-        <mj-text>Amount 65,99 €</mj-text>
+        <mj-text>Amount 65,21 €</mj-text>
       </mj-column>
     </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Subtotal: 85,21 €</mj-text>
+        <mj-text>Discount: -20 €</mj-text>
+        <mj-text>VAT: 9,78 €</mj-text>
+        <mj-text>Total prize: 74,99</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Payment Information</mj-text>
+        <mj-divider />
+        <mj-text>If you paid by credit card, please look for DRI*MALWM on your credit card billing statement.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Installation</mj-text>
+        <mj-divider />
+        <mj-text>Download the installation file from the following URL: <a href="#">http://files.mawaremauler.com/version6.3/setup.exe</a> </mj-text>
+        <mj-text>Follow the step-by_step installation instuctions : <a href="#">Malware Mauler Installation in 8 steps</a> </mj-text>
+        tep-by- ste
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Stay in touch</mj-text>
+        <mj-divider />
+        <mj-text>Social Placeholder</mj-text>
+        <mj-text>Best regards</mj-text>
+        <mj-text>Malware Mauler Software Customer Service</mj-text>
+        <mj-text><a href="#">malwaremauler.com/support</a></mj-text>
+        <mj-text>Please note: This email message was sent notification-only address that cannot accept incoming email. Please do not reply to this message.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-wrapper>
+  <mj-section>
+    <mj-column>
+      <mj-text>
+        Footer placeholder
+      </mj-text>
+    </mj-column>
+  </mj-section>
 
   </mj-body>
 </mjml>
