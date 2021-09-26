@@ -1,0 +1,42 @@
+<mjml>
+  <mj-head>
+    <mj-title></mj-title>
+    <mj-attributes>
+      <mj-preview>Malware Mauler - Order Confirmation (Order #12345678)</mj-preview>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-section>
+      <mj-column>
+        <mj-text>Magnus Rydberg, thank you for becoming a Malware Mauler customer</mj-text>
+        <mj-text>Here is a summary of your order toghether with installation instuctions</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+        <mj-column>
+            <mj-text>Order Information</mj-text>
+            <mj-divider  />
+            <mj-text>Order ID</mj-text>
+            <mj-text>1234</mj-text>
+            <mj-text>Order Date:</mj-text>
+            <mj-text>25 September 2021</mj-text>
+            <mj-text>Invoice:</mj-text>
+            <mj-text>Avalable at the <a href="">Order portal</a></mj-text>
+            <mj-text>Pasword:</mj-text>
+            <mj-text>W56abGKs7</mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text>Billing Address</mj-text>
+            <mj-divider  />
+            <mj-text>Name:</mj-text>
+            <mj-text>Magnus Rydberg</mj-text>
+            <mj-text>Address:</mj-text>
+            <mj-text>Socharska 654 / 9</mj-text>
+            <mj-text>Praha 7</mj-text>
+            <mj-text>CZ</mj-text>
+            <mj-text>Email:</mj-text>
+            <mj-text>hello@goodbye.com</mj-text>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
