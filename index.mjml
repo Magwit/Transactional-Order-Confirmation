@@ -5,11 +5,11 @@
       <!-- mjml attributes   -->
       <mj-preview>Malware Mauler - Order Confirmation (Order #12345678)</mj-preview>
       <mj-divider padding-top="0px" border-color="#999999" border-width="2px" />
-      <mj-text padding-top="0px" padding-bottom="0px" />
+      <mj-text padding-top="0px" padding-bottom="0px" font-size="14px" line-height="22px"/>
       <!-- mjml classes   -->
       <mj-class name="distinct" color="#111111" />
       <mj-class name="subtle" color="#555555" />
-      <mj-class name="footnote" font-size="12px" color="#555555" />
+      <mj-class name="footnote" font-size="12px" color="#555555"/>
     </mj-attributes>
     <mj-style inline="inline">
       h1 {
@@ -35,10 +35,10 @@
       <mj-section>
         <mj-column>
           <mj-text align="center">
-            <h1>Magnus Rydberg, thank you for becoming a Malware&nbsp;Mauler customer</h1>
+            <h1>Jonathan Doe, we are so happy to have you as a Malware&nbsp;Mauler customer. Welcome!</h1>
           </mj-text>
           <mj-text mj-class="distinct">
-            Here is a summary of your order toghether with links to installaltion of Malware&nbsp;Mauler.
+            Here is a summary of your order along with links to installaltion of Malware&nbsp;Mauler.
           </mj-text>
       </mj-section>
       <mj-section>
@@ -47,15 +47,15 @@
             <h2>Order Information</h2>
           </mj-text>
           <mj-divider />
-          <mj-text mj-class="distinct">Order ID</mj-text>
-          <mj-text mj-class="subtle">1234</mj-text>
+          <mj-text mj-class="distinct">Order ID:</mj-text>
+          <mj-text mj-class="subtle">12345678</mj-text>
           <mj-text mj-class="distinct">Order Date:</mj-text>
           <mj-text mj-class="subtle">25 September 2021</mj-text>
           <mj-text mj-class="distinct">Invoice:</mj-text>
           <mj-text mj-class="subtle">Available at the <a href="">Order portal</a></mj-text>
           <mj-text mj-class="distinct">Password:</mj-text>
           <mj-text mj-class="subtle">W56abGKs7</mj-text>
-          <mj-text mj-class="footnote">You will need the password to log in to the <a href="">Order portal</a> to check details of your order.</mj-text>
+          <mj-text mj-class="footnote">This is the password yo will need to in to the <a href="">Order portal</a> to wiew your order items.</mj-text>
         </mj-column>
         <mj-column>
           <mj-text>
@@ -65,13 +65,13 @@
           </mj-text>
           <mj-divider />
           <mj-text mj-class="distinct">Name:</mj-text>
-          <mj-text mj-class="subtle">Magnus Rydberg</mj-text>
+          <mj-text mj-class="subtle">Jonathan Doe</mj-text>
           <mj-text mj-class="distinct">Address:</mj-text>
           <mj-text mj-class="subtle">Sochařská 512 / 7</mj-text>
           <mj-text mj-class="subtle">Praha 170 00</mj-text>
           <mj-text mj-class="subtle">CZ</mj-text>
           <mj-text mj-class="distinct">Email:</mj-text>
-          <mj-text mj-class="subtle">Magnus Rydberg</mj-text>
+          <mj-text mj-class="subtle">jonnatand@email.com</mj-text>
         </mj-column>
       </mj-section>
       <mj-section>
@@ -100,7 +100,7 @@
             <h2>Payment Information</h2>
           </mj-text>
           <mj-divider />
-          <mj-text mj-class="subtle">If you paid by credit card, please look for DRI*MALWM Software on your credit card billing statement.</mj-text>
+          <mj-text mj-class="subtle">If you paid by credit card, the transation identifier is DRI*MALWM Software on your credit card billing statement.</mj-text>
         </mj-column>
       </mj-section>
       <mj-section>
@@ -116,14 +116,14 @@
       <mj-section>
         <mj-column>
           <mj-text>
-            <h2>Stay in touch</h2>
+            <h2>Keep in touch</h2>
           </mj-text>
           <mj-divider />
           <mj-text mj-class="subtle">Social Placeholder</mj-text>
-          <mj-text mj-class="subtle">Best regards</mj-text>
+          <mj-text mj-class="subtle">Best regards,</mj-text>
           <mj-text mj-class="subtle">Malware Mauler Software Customer Service</mj-text>
           <mj-text><a href="#">malwaremauler.com/support</a></mj-text>
-          <mj-text mj-class="footnote">Please note: This email message was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.</mj-text>
+          <mj-text mj-class="footnote">Please be aware: This order confirmation is sent from a notification-only address that cannot accept incoming email. Contact customer support directly for any questions about your order.</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
