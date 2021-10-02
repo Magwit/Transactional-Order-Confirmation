@@ -2,8 +2,8 @@
   <mj-head>
     <mj-title></mj-title>
     <mj-attributes>
-      <!-- mjml attributes   -->
-      <mj-preview>Malware Mauler - Order Confirmation (Order #12345678)</mj-preview>
+      <!-- mjml attributes   -->        
+      <mj-preview>Malware Mauler - Order Confirmation (Order #12345678)</mj-preview>    
       <mj-divider padding-top="0px" border-color="#999999" border-width="2px" />
       <mj-text padding-top="0px" padding-bottom="0px" font-size="14px" line-height="22px"/>
       <!-- mjml classes   -->
@@ -13,7 +13,7 @@
     </mj-attributes>
     <mj-style inline="inline">
       h1 {
-        font-size: 15px;
+        font-size: 18px;
         padding-top: 0px;
         padding-right: 20px;
         padding-bottom: 20px;
@@ -22,7 +22,8 @@
 
       h2 {
         color: rgb(15, 104, 54);
-        font-size: 15px;
+        font-size: 18px;
+        line-height: 10px;
       }
 
       a {
@@ -34,6 +35,7 @@
     <mj-wrapper background-color="#ffffff">
       <mj-section>
         <mj-column>
+          <mj-image src="https://res.cloudinary.com/distbyxa/image/upload/v1633148720/bytebox/m_m_logo_transparent_u3wu8d.png" alt="Logotype" width="200px"/>
           <mj-text align="center">
             <h1>Jonathan Doe, we are so happy to have you as a Malware&nbsp;Mauler customer. Welcome!</h1>
           </mj-text>
@@ -84,10 +86,7 @@
           <mj-text mj-class="subtle">Product Name: Malware Mauler Internet Security PC, 1 year subscription</mj-text>
           <mj-text mj-class="subtle">QTY: Ordered: 1</mj-text>
           <mj-text mj-class="subtle">Amount 65,21 €</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column>
+          <mj-spacer />
           <mj-text mj-class="subtle">Subtotal: 85,21 €</mj-text>
           <mj-text mj-class="subtle">Discount: -20 €</mj-text>
           <mj-text mj-class="subtle">VAT: 9,78 €</mj-text>
@@ -119,7 +118,17 @@
             <h2>Keep in touch</h2>
           </mj-text>
           <mj-divider />
-          <mj-text mj-class="subtle">Social Placeholder</mj-text>
+          <mj-social mode="vertical" align="left" icon-size="25px" line-height="22px">
+            <mj-social-element name="facebook" href="#">
+              Join the community on facebook
+            </mj-social-element>
+            <mj-social-element name="twitter" href="#" line-height="45px">
+              Follow Malware Mauler on twitter
+            </mj-social-element>
+            <mj-social-element href="url" background-color="#FF00FF" src="path-to-your-icon">
+              Optional label
+            </mj-social-element>
+          </mj-social>
           <mj-text mj-class="subtle">Best regards,</mj-text>
           <mj-text mj-class="subtle">Malware Mauler Software Customer Service</mj-text>
           <mj-text><a href="#">malwaremauler.com/support</a></mj-text>
