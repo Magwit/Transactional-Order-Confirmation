@@ -2,14 +2,14 @@
   <mj-head>
     <mj-title></mj-title>
     <mj-attributes>
-      <!-- mjml attributes   -->        
-      <mj-preview>Malware Mauler - Order Confirmation (Order #12345678)</mj-preview>    
+      <!-- mjml attributes   -->
+      <mj-preview>Malware Mauler - Order Confirmation (Order #12345678)</mj-preview>
       <mj-divider padding-top="0px" border-color="#999999" border-width="2px" />
-      <mj-text padding-top="0px" padding-bottom="0px" font-size="14px" line-height="22px"/>
+      <mj-text padding-top="0px" padding-bottom="0px" font-size="14px" line-height="22px" />
       <!-- mjml classes   -->
       <mj-class name="distinct" color="#111111" />
       <mj-class name="subtle" color="#555555" />
-      <mj-class name="footnote" font-size="12px" color="#555555"/>
+      <mj-class name="footnote" font-size="12px" color="#555555" />
     </mj-attributes>
     <mj-style inline="inline">
       h1 {
@@ -30,12 +30,13 @@
         color: #0000ee;
       }
     </mj-style>
+    <mj-font name="FontAwesome" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   </mj-head>
   <mj-body background-color="#cccccc">
     <mj-wrapper background-color="#ffffff">
       <mj-section>
         <mj-column>
-          <mj-image src="https://res.cloudinary.com/distbyxa/image/upload/v1633148720/bytebox/m_m_logo_transparent_u3wu8d.png" alt="Logotype" width="200px"/>
+          <mj-image src="https://res.cloudinary.com/distbyxa/image/upload/v1633148720/bytebox/m_m_logo_transparent_u3wu8d.png" alt="Logotype" width="200px" />
           <mj-text align="center">
             <h1>Jonathan Doe, we are so happy to have you as a Malware&nbsp;Mauler customer. Welcome!</h1>
           </mj-text>
@@ -109,7 +110,7 @@
           </mj-text>
           <mj-divider />
           <mj-text mj-class="subtle">Download the installation file from the following URL: <a href="#">http://files.mawaremauler.com/version6.3/setup.exe</a> </mj-text>
-          <mj-text mj-class="subtle">Follow the step-by_step installation instuctions : <a href="#">Malware Mauler Installation in 8 steps</a> </mj-text>
+          <mj-text mj-class="subtle">Follow the step-by-step installation instuctions : <a href="#">Malware Mauler Installation in 8 steps</a> </mj-text>
         </mj-column>
       </mj-section>
       <mj-section>
@@ -122,16 +123,17 @@
             <mj-social-element name="facebook" href="#">
               Join the community on facebook
             </mj-social-element>
-            <mj-social-element name="twitter" href="#" line-height="45px">
+            <mj-social-element name="twitter" href="#" line-height="50px">
               Follow Malware Mauler on twitter
             </mj-social-element>
-            <mj-social-element href="url" background-color="#FF00FF" src="path-to-your-icon">
-              Optional label
+            <mj-social-element name="support" href="#" src="https://res.cloudinary.com/distbyxa/image/upload/v1633176280/bytebox/wrench_tg37xj.png">
+              Contact support
             </mj-social-element>
           </mj-social>
           <mj-text mj-class="subtle">Best regards,</mj-text>
           <mj-text mj-class="subtle">Malware Mauler Software Customer Service</mj-text>
           <mj-text><a href="#">malwaremauler.com/support</a></mj-text>
+          <mj-spacer />
           <mj-text mj-class="footnote">Please be aware: This order confirmation is sent from a notification-only address that cannot accept incoming email. Contact customer support directly for any questions about your order.</mj-text>
         </mj-column>
       </mj-section>
@@ -140,6 +142,9 @@
       <mj-column>
         <mj-text mj-class="footnote">
           Malware Mauler Software s.r.o., Karla Engliše 2332/3b, 150 00, Prague 5, Czech Republic
+        </mj-text>
+        <mj-text mj-class="footnote">
+          "Contact support" icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </mj-text>
       </mj-column>
     </mj-section>
